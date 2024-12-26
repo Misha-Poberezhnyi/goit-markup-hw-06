@@ -53,6 +53,85 @@
             </li>
           </ul>
         </address>
+
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#menu"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu is-open">
+        <!--is-open-->
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close">
+            <svg width="8" height="8" class="mobile-btn-icon">
+              <use href="./images/icons.svg#close-1"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="nav-list-mobile">
+              <li class="nav-item-mobile">
+                <a class="nav-link-mobile current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="nav-item-mobile">
+                <a class="nav-link-mobile" href="">Portfolio</a>
+              </li>
+              <li class="nav-item-mobile">
+                <a class="nav-link-mobile" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="contacts-mobile">
+            <ul class="contacts-list-mobile">
+              <li class="contacts-item-mobile">
+                <a
+                  class="contacts-link-mobile current"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="contacts-item-mobile">
+                <a class="contacts-link-mobile" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+
+          <ul class="card-icon-list-mobile">
+            <li class="card-icon-item-mobile">
+              <a class="icon-link-mobile" href="#">
+                <svg width="24" height="24" class="card-icon-mobile">
+                  <use href="./images/icons.svg#instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="card-icon-item-mobile">
+              <a class="icon-link-mobile" href="#">
+                <svg width="24" height="24" class="card-icon-mobile">
+                  <use href="./images/icons.svg#twiter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="card-icon-item-mobile">
+              <a class="icon-link-mobile" href="#">
+                <svg width="24" height="24" class="card-icon-mobile">
+                  <use href="./images/icons.svg#facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="card-icon-item-mobile">
+              <a class="icon-link-mobile" href="#">
+                <svg width="24" height="24" class="card-icon-mobile">
+                  <use href="./images/icons.svg#linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -65,6 +144,7 @@
           <button class="hero-img-button" type="button">Order Service</button>
         </div>
       </section>
+
       <!--Feature-->
       <section class="feature-page">
         <div class="container">
@@ -146,6 +226,10 @@
               <img
                 class="images"
                 src="./images/mark-guerrero.jpg"
+                srcset="
+                  ./images/mark-guerrero.jpg    1x,
+                  ./images/mark-guerrero@2x.jpg 2x
+                "
                 alt="mark-guerrero"
                 width="264"
               />
@@ -186,10 +270,18 @@
               </div>
             </li>
 
-            <li class="team-card-item">
+            <li
+              class="team-card-item"
+              style="
+                box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+                  0px 1px 1px rgba(46, 47, 66, 0.16),
+                  0px 2px 1px rgba(46, 47, 66, 0.08);
+              "
+            >
               <img
                 class="images"
                 src="./images/tom-ford.jpg"
+                srcset="./images/tom-ford.jpg 1x, ./images/tom-ford@2x.jpg 2x"
                 alt="tom-ford"
                 width="264"
               />
@@ -230,10 +322,21 @@
               </div>
             </li>
 
-            <li class="team-card-item">
+            <li
+              class="team-card-item"
+              style="
+                box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+                  0px 1px 1px rgba(46, 47, 66, 0.16),
+                  0px 2px 1px rgba(46, 47, 66, 0.08);
+              "
+            >
               <img
                 class="images"
                 src="./images/camila-garcia.jpg"
+                srcset="
+                  ./images/camila-garcia.jpg    1x,
+                  ./images/camila-garcia@2x.jpg 2x
+                "
                 alt="camila-garcia"
                 width="264"
               />
@@ -274,10 +377,21 @@
               </div>
             </li>
 
-            <li class="team-card-item">
+            <li
+              class="team-card-item"
+              style="
+                box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+                  0px 1px 1px rgba(46, 47, 66, 0.16),
+                  0px 2px 1px rgba(46, 47, 66, 0.08);
+              "
+            >
               <img
                 class="images"
                 src="./images/daniel-wilson.jpg"
+                srcset="
+                  ./images/daniel-wilson.jpg    1x,
+                  ./images/daniel-wilson@2x.jpg 2x
+                "
                 alt="daniel-wilson"
                 width="264"
               />
@@ -325,10 +439,21 @@
         <div class="container">
           <h2 class="our-portfolio-title">Our Portfolio</h2>
           <ul class="row">
-            <li class="row-item">
+            <li
+              class="row-item"
+              style="
+                box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+                  0 1px 1px 0 rgba(46, 47, 66, 0.16),
+                  0 1px 6px 0 rgba(46, 47, 66, 0.08);
+              "
+            >
               <div class="overlay">
                 <img
                   src="./images/banking-app.jpg"
+                  srcset="
+                    ./images/banking-app.jpg    1x,
+                    ./images/banking-app@2x.jpg 2x
+                  "
                   alt="banking-app"
                   width="360"
                 />
@@ -347,6 +472,10 @@
               <div class="overlay">
                 <img
                   src="./images/cashless-payment.jpg"
+                  srcset="
+                    ./images/cashless-payment.jpg    1x,
+                    ./images/cashless-payment@2x.jpg 2x
+                  "
                   alt="cashless-payment"
                   width="360"
                 />
@@ -365,6 +494,10 @@
               <div class="overlay">
                 <img
                   src="./images/meditation-app.jpg"
+                  srcset="
+                    ./images/meditation-app.jpg    1x,
+                    ./images/meditation-app@2x.jpg 2x
+                  "
                   alt="meditation-app"
                   width="360"
                 />
@@ -383,6 +516,10 @@
               <div class="overlay">
                 <img
                   src="./images/taxi-service.jpg"
+                  srcset="
+                    ./images/taxi-service.jpg    1x,
+                    ./images/taxi-service@2x.jpg 2x
+                  "
                   alt="taxi-service"
                   width="360"
                 />
@@ -401,6 +538,10 @@
               <div class="overlay">
                 <img
                   src="./images/screen-illustrations.jpg"
+                  srcset="
+                    ./images/screen-illustrations.jpg    1x,
+                    ./images/screen-illustrations@2x.jpg 2x
+                  "
                   alt="screen-illustrations"
                   width="360"
                 />
@@ -419,6 +560,10 @@
               <div class="overlay">
                 <img
                   src="./images/online-courses.jpg"
+                  srcset="
+                    ./images/online-courses.jpg    1x,
+                    ./images/online-courses@2x.jpg 2x
+                  "
                   alt="online-courses"
                   width="360"
                 />
@@ -506,9 +651,10 @@
       </div>
     </footer>
 
-    <!--Modal Window-->
+    <!--Modal Window Mobile-->
 
     <div class="modal-window">
+      <!--is open-->
       <div class="window-modal">
         <button class="window-modal-btn" type="button">
           <svg width="8" height="8" class="btn-icon">
@@ -519,7 +665,7 @@
           Leave your contacts and we will call you back
         </p>
         <form class="window-modal-form">
-          <div class="form-window">
+          <div class="form-window one">
             <label class="form-window-label" for="user-name">Name</label>
             <div class="window-modal-input">
               <input
@@ -587,8 +733,10 @@
                 <svg width="10" height="8" class="span-icon">
                   <use href="./images/icons.svg#checkmark-1"></use>
                 </svg> </span
-              >I accept the terms and conditions of the
-              <a class="checkbox-label-link" href="">Privacy Policy</a>
+              ><span>
+                I accept the terms and conditions of the
+                <a class="checkbox-label-link" href="">Privacy Policy</a></span
+              >
             </label>
           </div>
           <button class="order-service">Send</button>
